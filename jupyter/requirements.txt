@@ -1,0 +1,17 @@
+### Generally useful notebook things
+jupyter-contrib-nbextensions
+jupyter-nbextensions-configurator
+ipywidgets
+tqdm
+nb_black
+retrolab
+
+### Used in Notebooks
+elasticsearch
+elasticsearch_dsl
+httpx
+pandas
+sqlalchemy
+PyMySQL
+
+
