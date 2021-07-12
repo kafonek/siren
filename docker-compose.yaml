@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  siren:
+    build: ./siren
+    ports:
+      - 5606:5606
+      - 9220:9220
+    environment:
+      - "DISCOVERY_TYPE=single-node"
+      - "discovery.type=single-node"
+
+  jupyter:
+    build: ./jupyter
+    ports:
+      - 8888:8888
+    volumes:
+      - ./jupyter/notebooks:/home/jovyan/notebooks
