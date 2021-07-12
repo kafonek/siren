@@ -15,4 +15,4 @@ services:
     ports:
       - 8888:8888
     volumes:
-      - ./jupyter/notebooks:/home/jovyan/notebooks
+      - ./notebooks:/home/jovyan/notebooks
