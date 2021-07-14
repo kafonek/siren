@@ -6,6 +6,8 @@ To get started, clone this repo and run `docker-compose up --build -d && docker-
 
 Look in the Jupyter logs for a link to your server with the access token (something like `http://127.0.0.1:8888/?token=68b704d7cdee14b75051daa4efe55c6d69ee8a306ab29e1f`). The Siren/Kibana UI will be available at `http://localhost:5606`, and ES endpoints at `https://localhost:9220` _(note that Jupyter is running in the same Docker network so you'll see Notebooks connect to `https://siren:9220` vice localhost)_.
 
+Log in to the Siren Investigate / Kibana UI using `sirenadmin` / `password`, `sirenuser` / `password`, or `sirennoinvestor` / `password`. Check out the Demo data documentation at https://docs.siren.io/siren-platform-user-guide/11.1/getting-started/getting-started-with-demo-data.html#_username_and_passwords_at_login.
+
 ### Siren
 
 Siren is an Elasticsearch plugin that adds several features to the base Elasticsearch/Kibana stack, most noteably relationships between tables. See https://siren.io/getting-started/ for more details.
